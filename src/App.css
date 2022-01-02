@@ -1,0 +1,87 @@
+/* .container {
+  text-align: center;
+  padding: 20px;
+} */
+/* 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+body {
+  font-size: 14px;
+}
+.content {
+  width: 800px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.content-box {
+  text-align: center;
+}
+
+.header-content {
+ 
+}
+.header-content input {
+  padding: 10px;
+  width: 80%;
+}
+.header-title {
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.main-content .del-box {
+  display: block;
+  padding: 10px 0;
+}
+.main-content .closed{
+  display: none;
+}
+.main-content .main-item {
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #ddd;
+  background-color: #dff0d8;
+}
+.main-content .main-item li {
+  list-style-type: none;
+}
+.main-content .main-item input {
+  margin: 0;
+  margin-right: 10px;
+}
+
+
+.footer-content {
+}
+.footer-title {
+  font-size: 14px;
+}
+
+.footer-btn {
+  padding: 6px 12px;
+  background-color: #337ab7;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.text-lf {
+  text-align: left;
+}
+.text-rg {
+  text-align: right;
+}
+
+.mg-20 {
+  margin-right: 20px;
+}
+

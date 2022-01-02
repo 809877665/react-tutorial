@@ -1,0 +1,21 @@
+MDN文档中JS的介绍：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript
+
+官方免费教学视频：https://react.docschina.org/community/courses.html
+
+
+
+1. JSX: JavaScript+XML;
+
+2. 定义组件的方式
+   a. 使用class关键字
+   b. 使用ES6箭头函数来创建简单组件
+注意：（1）一个类组件必须包含render()，并且return只能返回一个父元素；
+      （2）如果return包含在一行中，则不需要加括号；
+
+    
+3. 您必须使用this.setState()修改数组。简单地将新值应用到this.state.property将不起作用。
+
+注意：正确地使用 State
+  1）不要直接修改State，如this.state.date = new Date()；此代码不会重新渲染组件；；
+     构造函数constructor中是 唯一可以给this.state直接赋值的地方；；
+  2）State的更新可能是异步的；所以不能依赖 this.props / this.state 的值来更新下一个状态；
